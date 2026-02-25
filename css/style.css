@@ -1,0 +1,359 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+body{
+   background-color: #e3e3e3;
+    
+}
+.interface{
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
+}
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img{
+    max-width: 80px;
+   
+}
+header .menu-desktop nav ul{
+    list-style: none;
+}
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header .menu-desktop nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: .2s;
+}
+header .menu-desktop nav ul li a:hover{
+    transform: scale(1.1);
+}
+header .btn-contato button{
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+header .btn-contato button:hover{
+    background-color: white;
+    color: black;
+}
+/* Script menu */
+header.rolar{
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+header.rolar .menu-desktop nav ul li a{
+    color: black;
+}
+header.rolar .btn-contato button{
+    border: 1px solid black;
+    color: black;
+}
+header.rolar .btn-contato button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+/* ---------- */
+
+
+
+section.hero-site{
+    height: 100vh;
+    background-image: url(../images/pexels-happyja-292689111-27775962.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+
+}
+.hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 800;
+}
+.hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.hero-site .txt-hero p span{
+    display: block;
+}
+.hero-site button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+.hero-site button:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Estilo das  vantagens*/
+section.vantagem{
+    padding: 80px 0;
+}
+ .vantagem .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+
+
+}
+.vantagem .itens-container .imagem-itens img{
+    max-width: 480px;
+    border-radius: 10px;
+    box-shadow: rgba(240, 179, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.4) 10px 10px, rgba(240, 179, 46, 0.4)15px 15px, rgba(240, 140, 46, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.vantagem .itens-container .txt-itens h3{
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.vantagem .itens-container .txt-itens span{
+    font-weight: 300;
+}
+
+/*Estilo dos botões contato*/
+section.contato{
+    background-color: #fff;
+    padding: 80px 0;
+
+}
+/*Uma das formas de alinhar blocos*/
+.txt-contato, .icons-contato{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+.contato .txt-contato h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.contato .txt-contato h3 span{
+    display: block;
+    font-weight: 700;
+}
+.contato .txt-contato p{
+    font-size: 20px;
+}
+.contato .icons-contato a{
+    text-decoration: none;
+}
+.contato .icons-contato button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px;
+
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+
+    transition: .5s;
+}
+.contato .icons-contato button i{
+    font-size: 24px;
+}
+.contato .icons-contato button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* hoteis */
+section.hoteis{
+    height: 800px;
+    background-image: url(../images/pexels-darrell-fraser-1187740-2259226.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.hoteis .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+.hoteis h3{
+    color: white;
+    font-weight: 300;
+    margin-top: 300px;
+    font-size: 2em;
+    line-height: 60px;
+    position: relative;
+    z-index: 2;
+}
+.hoteis h3 span{
+    font-weight: 700;
+}
+.hoteis h3 p{
+    font-size: 27px;
+}
+.interface h3 button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 250px;
+    padding: 25px;
+}
+.interface h3 button:hover{
+    background-color: white;
+    color: black;
+}
+.hoteis >.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+/* Como Funciona */
+section.como-funciona .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.como-funciona .txt-funciona{
+    font-size: 2em;
+}
+.como-funciona .txt-funciona span{
+    font-weight: 300;
+}
+
+article.box-funciona{
+    width: 50%;
+    margin-right: -50px;   
+}
+.como-funciona .box-funciona img{
+    width: 150px;
+}
+.descricao-box{
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    margin: 50px 0;
+    border: 3px solid black;
+}
+.descricao-box h3{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.descricao-box h3 p{
+    font-size: 20px;
+    width: 420px;
+    margin-top: 15px;
+}
+.descricao-box h3 span{
+    font-weight: bold;
+
+}
+
+/* footer */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 30px 0;
+}
+.rede-social {
+    margin-top: 40px;
+}
+.rede-social .social-midia{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.social-midia a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    margin-right: 200px;
+}
+.social-midia a p{
+    margin-top: 20px;
+}
+.social-midia a p:hover{
+    text-decoration: underline;
+}
+.rede-social .social-midia i{
+    cursor: pointer;
+    color: white;
+    font-size: 30px; 
+    display: inline-block;  
+}
+.rede-social .social-midia i:hover{
+    transform: scale(1.2);
+    color: violet;
+}
+.txt-rodape{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
