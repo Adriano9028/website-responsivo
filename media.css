@@ -71,7 +71,6 @@ section.contato{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .contato .txt-contato h3{
     text-align: center;
@@ -82,6 +81,7 @@ section.contato{
 }
 .contato .txt-contato p{
     font-size: 16px;
+    line-height: 20px;
     width: 200px;
     margin: 20px 20px;
 }
@@ -124,15 +124,15 @@ section.como-funciona .interface {
 
 .como-funciona .txt-funciona h1{
     font-size: 1em;
-    text-align: center;
+    margin-left: 120px;
     margin-top: 20px;
 }
 article.box-funciona{
-    width: 110%;
+    width: 140%;
     margin-right: -20px;   
 }
 .como-funciona .box-funciona img{
-    width: 60px;
+    width: 70px;
     margin-right: 20px;
 }
 .descricao-box{
@@ -174,12 +174,12 @@ footer{
 }
 .social-midia a p{
     margin: 020px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .rede-social .social-midia i{
     cursor: pointer;
     color: white;
-    font-size: 20px; 
+    font-size: 22px; 
     display: inline-block;  
 }
 .txt-rodape{
