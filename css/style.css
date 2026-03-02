@@ -86,6 +86,9 @@ header.rolar .menu-mobile-list{
     background-color: rgba(0, 0, 0, 0.692);
     
 }
+body.no-overflow {
+  
+}
 
 /* ---------- */
 

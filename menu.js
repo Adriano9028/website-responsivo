@@ -7,7 +7,16 @@ document.addEventListener("scroll",()=>{
         navBar. classList.remove('rolar')
     }
 
+    let body = document.querySelector('body')
+    body.classList.toggle('no-overflow')
+
+
 })
+
+ 
+
+
+
 
 function menuShow() {
     let menuMobile =document.querySelector('#menu-mobile');
