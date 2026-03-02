@@ -1,9 +1,69 @@
 
 @media screen and (max-width: 980px) {
-    header .menu-desktop, header .btn-contato{
+    .menu-desktop{
         display: none;
     }
-    
+    .btn-contato{
+        display: none;
+    }
+    .menu-mobile-list{
+        display: block;
+    }
+     .menu-mobile-list{
+       position: relative;
+       z-index: 9999999999999;
+     }
+     .menu-mobile-list button{
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+     }
+      header .menu-mobile {
+        width: 0;
+        height: 0;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        overflow: hidden;
+        transition: .5s;
+
+       
+      }
+     .menu-mobile nav {
+        width: 100%;
+     }
+     .menu-mobile nav ul{
+      list-style: none;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+     }
+     .menu-mobile .menu-list a{
+        padding: 20px 0;
+        font-size: 24px;
+        text-decoration: none;
+        color: white;
+        display: block;
+        transition: .5s;
+     }
+     .menu-mobile .menu-list a:hover{
+        background-color: #fff;
+        color: black;
+        box-shadow: 0 0 20px #fff;
+     }
+    header .menu-mobile.open{
+        width: 100%;
+        height: 100vh;
+    }
+   
+  
 }
 @media screen and (max-width: 1270px){
 

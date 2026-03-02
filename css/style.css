@@ -17,7 +17,7 @@ body{
 }
 header{
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -81,6 +81,10 @@ header.rolar .btn-contato button:hover{
     background-color: black;
     color: white;
 
+}
+header.rolar .menu-mobile-list{
+    background-color: rgba(0, 0, 0, 0.692);
+    
 }
 
 /* ---------- */
@@ -353,5 +357,11 @@ footer{
     color: white;
     font-size: 1.5em;
     margin-top: 40px;
+}
+.menu-mobile-list{
+    display: none;
+}
+.menu-mobile{
+    display: none;
 }
 
