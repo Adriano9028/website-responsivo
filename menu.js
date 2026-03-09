@@ -8,7 +8,6 @@ document.addEventListener("scroll",()=>{
     }
 
     let body = document.querySelector('body')
-    body.classList.toggle('no-overflow')
 
 
 })
